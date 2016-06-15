@@ -1,4 +1,11 @@
+Description
+=====
 
+Explanation of files
+* `Example_PSI.conf`: main configuration for grid-control, how many jobs you want, what scripts you want to call. Many options, see `~jpata/grid-control/docs/documentation.conf` for more info
+* `Example_PSI.sh`: script that will be called on the batch system
+* `data*.dat`: custom data files, can contain multiple DATASETS, one `file = NEVENTS` per line, how you interpret the filename is up to you (see `script.py`)
+* `script.py`: simple PyROOT script demonstrating the use of ROOT files from `/pnfs`
 
 Usage
 =====
@@ -34,5 +41,5 @@ job.stdout.gz
 out.txt
 ~~~
 
-and also copied to /pnfs
+and also copied to `/pnfs`
 
