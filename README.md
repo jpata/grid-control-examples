@@ -34,3 +34,5 @@ job.stdout.gz
 out.txt
 ~~~
 
+and also copied to /pnfs
+
