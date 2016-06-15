@@ -43,3 +43,4 @@ out.txt
 
 and also copied to `/pnfs`
 
+In case you want to clean up and start again, just delete `work.Example_PSI`.
