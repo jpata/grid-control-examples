@@ -13,7 +13,7 @@ Usage
 How to run a job:
 ~~~
 ~jpata/grid-control/go.py Example_PSI.conf -c
-...wait...
+...wait... (you can safely kill it with Ctrl-C at any time and resume later)
 ~~~
 
 How to get a report after it's done:
