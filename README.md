@@ -2,7 +2,7 @@ Description
 =====
 
 Explanation of files
-* `Example_PSI.conf`: main configuration for grid-control, how many jobs you want, what scripts you want to call. Many options, see `~jpata/grid-control/docs/documentation.conf` for more info
+* `Example_PSI.conf`: main configuration for grid-control, how many jobs you want, what scripts you want to call. Many options, see `/swshare/grid-control/docs/documentation.conf` for more info
 * `Example_PSI.sh`: script that will be called on the batch system
 * `data*.dat`: custom data files, can contain multiple DATASETS, one `file = NEVENTS` per line, how you interpret the filename is up to you (see `script.py`)
 * `script.py`: simple PyROOT script demonstrating the use of ROOT files from `/pnfs`
@@ -12,13 +12,13 @@ Usage
 
 How to run a job:
 ~~~
-~jpata/grid-control/go.py Example_PSI.conf -c
+/swshare/grid-control/go.py Example_PSI.conf -c
 ...wait... (you can safely kill it with Ctrl-C at any time and resume later)
 ~~~
 
 How to get a report after it's done:
 ~~~
-~jpata/grid-control/scripts/report.py Example_PSI.conf -R LocationReport
+/swshare/grid-control/scripts/report.py Example_PSI.conf -R LocationReport
 ~~~
 
 The output is in
